@@ -1,0 +1,44 @@
+<mat-toolbar color="primary">
+
+
+    <div fxHide.gt-xs>
+        <button mat-icon-button (click)="onToggleSidenav()">
+            <mat-icon>menu</mat-icon>
+        </button>
+    </div>
+    <div fxFlex fxLayout fxLayoutAlign="start" fxHide.xs>
+        <ul fxLayout fxLayoutGap="15px" class="navigation-items">
+            <li>
+                <a routerLink="/home">Home</a>
+            </li>
+            <li>
+                <a routerLink="/guide">guide</a>
+            </li>
+          
+            <mat-list-item [matMenuTriggerFor]="menu">     
+                <a matline>Tutorial</a>
+            </mat-list-item> 
+     
+     </ul>
+    </div>
+
+    <div fxFlex fxLayout fxLayoutAlign="end" fxHide.xs>
+
+        <ul fxLayout fxLayoutGap="15px" class="navigation-items">
+
+            <li>
+                <a routerLink="/GitHub">Help</a>
+            </li>
+            <li>
+                <a routerLink="/DotNet">Contact US</a>
+            </li>
+
+        </ul>
+    </div>
+</mat-toolbar>
+
+<mat-menu #menu="matMenu">
+    <button routerLink="/angular_start" mat-menu-item>FirstAngular Project</button>  
+    <button routerLink="/GitHub" mat-menu-item>GitHubSeries</button>
+ 
+</mat-menu>   
