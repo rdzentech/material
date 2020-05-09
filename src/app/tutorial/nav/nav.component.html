@@ -1,0 +1,94 @@
+<mat-accordion>
+    <mat-expansion-panel>
+      <mat-expansion-panel-header>
+        <mat-panel-title>
+        Get Start
+        </mat-panel-title>
+    
+      </mat-expansion-panel-header>
+  
+      <mat-nav-list>
+        <a mat-list-item routerLink="/setup-local" >
+            <span class="nav-caption">SETUP</span>
+        </a>
+        <a mat-list-item routerLink="/start" >
+          <span class="nav-caption">Your First App</span>   
+        </a>     
+     
+      </mat-nav-list>
+    </mat-expansion-panel>
+
+    <mat-expansion-panel>
+      <mat-expansion-panel-header>
+        <mat-panel-title>
+          GIT Series
+        </mat-panel-title>
+    
+      </mat-expansion-panel-header>
+  
+      <mat-nav-list>
+        <a mat-list-item routerLink="/git-deploy" >
+          <span class="nav-caption">GitDeploy</span>   
+        </a> 
+        <a mat-list-item routerLink="/git-commands" >
+            <span class="nav-caption">GitCommands</span>
+        </a>         
+      </mat-nav-list>
+    </mat-expansion-panel>
+
+    <mat-expansion-panel (opened)="panelOpenState = true"
+                         (closed)="panelOpenState = false">
+      <mat-expansion-panel-header>
+        <mat-panel-title>
+          Demo
+        </mat-panel-title>
+     
+      </mat-expansion-panel-header>
+      <mat-nav-list role="navigation" dense="" class="mat-nav-list mat-list-base ng-tns-c141-111 ng-trigger ng-trigger-bodyExpansion" id="panel-layout" aria-label="Layout" style="display: block;"><a mat-list-item="" routerlinkactive="docs-component-viewer-sidenav-item-selected" class="mat-list-item mat-focus-indicator ng-tns-c141-111 ng-star-inserted" aria-current="false" href="/components/card" 
+   >
+        <div class="mat-list-item-content">
+          <div mat-ripple="" class="mat-ripple mat-list-item-ripple"></div>
+          <div class="mat-list-text"></div> Card
+        </div>
+      </a><a mat-list-item="" routerlinkactive="docs-component-viewer-sidenav-item-selected" class="mat-list-item mat-focus-indicator ng-tns-c141-111 ng-star-inserted" aria-current="false" href="/components/divider" style="">
+        <div class="mat-list-item-content">
+          <div mat-ripple="" class="mat-ripple mat-list-item-ripple"></div>
+          <div class="mat-list-text"></div> Divider
+        </div>
+      </a><a mat-list-item="" routerlinkactive="docs-component-viewer-sidenav-item-selected" class="mat-list-item mat-focus-indicator ng-tns-c141-111 ng-star-inserted" aria-current="false" href="/components/expansion" style="">
+        <div class="mat-list-item-content">
+          <div mat-ripple="" class="mat-ripple mat-list-item-ripple"></div>
+          <div class="mat-list-text"></div> Expansion Panel
+        </div>
+      </a><a mat-list-item="" routerlinkactive="docs-component-viewer-sidenav-item-selected" class="mat-list-item mat-focus-indicator ng-tns-c141-111 ng-star-inserted" aria-current="false" href="/components/grid-list" style="">
+        <div class="mat-list-item-content">
+          <div mat-ripple="" class="mat-ripple mat-list-item-ripple"></div>
+          <div class="mat-list-text"></div> Grid list
+        </div>
+      </a><a mat-list-item="" routerlinkactive="docs-component-viewer-sidenav-item-selected" class="mat-list-item mat-focus-indicator ng-tns-c141-111 ng-star-inserted" aria-current="false" href="/components/list" style="">
+        <div class="mat-list-item-content">
+          <div mat-ripple="" class="mat-ripple mat-list-item-ripple"></div>
+          <div class="mat-list-text"></div> List
+        </div>
+      </a><a mat-list-item="" routerlinkactive="docs-component-viewer-sidenav-item-selected" class="mat-list-item mat-focus-indicator ng-tns-c141-111 ng-star-inserted" aria-current="false" href="/components/stepper" style="">
+        <div class="mat-list-item-content">
+          <div mat-ripple="" class="mat-ripple mat-list-item-ripple"></div>
+          <div class="mat-list-text"></div> Stepper
+        </div>
+      </a><a mat-list-item="" routerlinkactive="docs-component-viewer-sidenav-item-selected" class="mat-list-item mat-focus-indicator ng-tns-c141-111 ng-star-inserted" aria-current="false" href="/components/tabs" style="">
+        <div class="mat-list-item-content">
+          <div mat-ripple="" class="mat-ripple mat-list-item-ripple"></div>
+          <div class="mat-list-text"></div> Tabs
+        </div>
+      </a>
+      <a mat-list-item="" routerlinkactive="docs-component-viewer-sidenav-item-selected" class="mat-list-item mat-focus-indicator ng-tns-c141-111 ng-star-inserted" aria-current="false" href="/components/tree" style="">
+        <div class="mat-list-item-content">
+          <div mat-ripple="" class="mat-ripple mat-list-item-ripple"></div>
+          <div class="mat-list-text"></div> Tree
+        </div>
+      </a>
+      <!---->
+    </mat-nav-list>
+    </mat-expansion-panel>
+  </mat-accordion>
+  
