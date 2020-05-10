@@ -4,23 +4,18 @@
         <mat-sidenav-content cdkscrollable="" class="mat-drawer-content mat-sidenav-content ng-star-inserted">
             <div class="docs-component-sidenav-content">
 
-                <app-page-header>
+                <app-page-header [selectedItem]="parentValue">
                     <!--app-page-header Place holder-->
                 </app-page-header>
 
                 <div class="docs-component-sidenav-inner-content">
                     <main class="docs-component-sidenav-body-content">
-                        <app-nav class="ng-star-inserted"
-                        (childComponentEvent)="parentReceviedChildEvent($event)"
-                        >
+                        <app-nav class="ng-star-inserted" (childComponentEvent)="parentReceviedChildEvent($event)">
                             <!--app-nav Place holder-->
                         </app-nav>
 
-                        <app-viewer class="ng-star-inserted"    
-                        
-                        [loadGitCommands]="parentValue"
-                        
-                        >
+                        <app-viewer class="ng-star-inserted"                       
+                        [loadGitCommands]="parentValue" >
                              <!--viewer Place holder-->
                         </app-viewer>
 

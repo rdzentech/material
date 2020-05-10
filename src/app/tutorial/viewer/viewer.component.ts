@@ -8,11 +8,14 @@ import { Component, OnInit, Input } from '@angular/core';
 export class ViewerComponent implements OnInit {
 
   constructor() { }
+  @Input() loadGitCommands: string;  
+  ngOnInit(): void {
+  }
 
 
   //---------------Angular Series---------------------------------
   get start(): boolean {
-    if (this.loadGitCommands == "start") {
+    if (this.loadGitCommands == "Your First App") {
       return true;
     };
     return false;
@@ -24,7 +27,6 @@ export class ViewerComponent implements OnInit {
     };
     return false;
   }
-
   //---------------Git Series---------------------------------
   get gitCommands(): boolean {
     if (this.loadGitCommands == "GitCommands") {
@@ -32,20 +34,11 @@ export class ViewerComponent implements OnInit {
     };
     return false;
   }
-
   get gitDeploy(): boolean {
     if (this.loadGitCommands == "GitDeploy") {
       return true;
     };
     return false;
   }
-
-  @Input() loadGitCommands: string;
-
-  ngOnInit(): void {
-
-  }
-
-
 
 }

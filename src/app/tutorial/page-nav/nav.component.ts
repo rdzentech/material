@@ -18,7 +18,7 @@ export class NavComponent implements OnInit {
   gitLoaded=true;
 
   loadGitCommandsComponent(value:string){
-        debugger;
+  
 
    this.childComponentEvent.emit(value);
 }

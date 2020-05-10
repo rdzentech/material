@@ -17,7 +17,7 @@ export class SidenavComponent implements OnInit {
   public  parentValue:boolean;
 
   parentReceviedChildEvent(value: any) {
-    debugger;
+   
     this.parentValue = value;
   }
 
