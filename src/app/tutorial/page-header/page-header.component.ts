@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-page-header',
@@ -10,6 +10,9 @@ export class PageHeaderComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    this.selectedItem="Tutorial";
   }
+
+@Input()  selectedItem:string;
 
 }

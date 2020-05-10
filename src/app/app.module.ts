@@ -6,13 +6,13 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { MaterialModule } from './material-module';
-import { HeaderComponent } from './navigation/header/header.component';
-import { SidenavListComponent } from './navigation/sidenav-list/sidenav-list.component';
+import { HeaderComponent } from './navigation/main-header/header.component';
+import { SidenavListComponent } from './navigation/main-sidenav-list/sidenav-list.component';
 import { HomeComponent } from './home/home.component';
 
 
-import { SidenavComponent } from './tutorial/sidenav/sidenav.component';
-import { NavComponent } from './tutorial/nav/nav.component';
+import { SidenavComponent } from './tutorial/main-sidenav/sidenav.component';
+import { NavComponent } from './tutorial/page-nav/nav.component';
 import { PageHeaderComponent } from './tutorial/page-header/page-header.component';
 import { ViewerComponent } from './tutorial/viewer/viewer.component';
 import { StartComponent } from './tutorial/angular/start/start.component';
