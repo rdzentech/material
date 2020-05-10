@@ -10,11 +10,18 @@
 
                 <div class="docs-component-sidenav-inner-content">
                     <main class="docs-component-sidenav-body-content">
-                        <app-nav class="ng-star-inserted">
+                        <app-nav class="ng-star-inserted"
+                        (childComponentEvent)="parentReceviedChildEvent($event)"
+                        >
                             <!--app-nav Place holder-->
                         </app-nav>
 
-                        <app-viewer class="ng-star-inserted">
+                        <app-viewer class="ng-star-inserted"    
+                        
+                        [loadGitCommands]="parentValue"
+                        
+                        >
+                             <!--viewer Place holder-->
                         </app-viewer>
 
                     </main>

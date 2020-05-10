@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import{CommonModule} from '@angular/common'
 import { Routes, RouterModule } from '@angular/router';
 import { HomeComponent } from './home/home.component';
-import { SidenavComponent } from './tutorial/sidenav/sidenav.component';
+import { SidenavComponent } from './tutorial/main-sidenav/sidenav.component';
 import { StartComponent } from './tutorial/angular/start/start.component';
 import { SetupLocalComponent } from './tutorial/angular/setup-local/setup-local.component';
 import { GitCommandsComponent } from './tutorial/git/git-commands/git-commands.component';

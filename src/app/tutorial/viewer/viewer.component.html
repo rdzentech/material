@@ -1,4 +1,24 @@
 <div class="docs-component-viewer">
-<app-setup-local></app-setup-local>
+ 
+    <!--Angular Place Holder-->
+    <div *ngIf='sETUP'>
+        <app-setup-local>
+        </app-setup-local>
+    </div>
 
+    <div *ngIf='start'>
+        <app-start>
+        </app-start>
+    </div> 
+ 
+ 
+  <!--Angular Place Holder-->
+    <div *ngIf='gitCommands'>
+        <app-git-commands>
+        </app-git-commands>
+    </div>
+    <div *ngIf='gitDeploy'>
+        <app-git-deploy>
+        </app-git-deploy>
+    </div>
 </div>

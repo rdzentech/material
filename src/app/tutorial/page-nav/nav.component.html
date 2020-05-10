@@ -1,3 +1,5 @@
+
+
 <mat-accordion>
     <mat-expansion-panel>
       <mat-expansion-panel-header>
@@ -8,13 +10,18 @@
       </mat-expansion-panel-header>
   
       <mat-nav-list>
-        <a mat-list-item routerLink="/setup-local" >
-            <span class="nav-caption">SETUP</span>
+      
+
+        <a mat-list-item routerLink="#" >         
+            <span (click)="loadGitCommandsComponent('SETUP')" class="nav-caption">SETUP</span>  
         </a>
-        <a mat-list-item routerLink="/start" >
-          <span class="nav-caption">Your First App</span>   
-        </a>     
-     
+        <a mat-list-item routerLink="#" >         
+          <span (click)="loadGitCommandsComponent('start')" class="nav-caption">Your First App</span>   
+        </a>
+ 
+
+
+        
       </mat-nav-list>
     </mat-expansion-panel>
 
@@ -27,11 +34,11 @@
       </mat-expansion-panel-header>
   
       <mat-nav-list>
-        <a mat-list-item routerLink="/git-deploy" >
-          <span class="nav-caption">GitDeploy</span>   
+        <a mat-list-item routerLink="#" >
+          <span (click)="loadGitCommandsComponent('GitDeploy')" class="nav-caption">GitDeploy</span>   
         </a> 
-        <a mat-list-item routerLink="/git-commands" >
-            <span class="nav-caption">GitCommands</span>
+        <a mat-list-item routerLink="#" >          
+          <span  (click)="loadGitCommandsComponent('GitCommands')" class="nav-caption">GitCommands</span>   
         </a>         
       </mat-nav-list>
     </mat-expansion-panel>
