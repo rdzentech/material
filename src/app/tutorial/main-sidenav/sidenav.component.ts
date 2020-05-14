@@ -16,14 +16,14 @@ export class SidenavComponent implements OnInit {
 
   ngOnInit(): void {
     
-   this.loadGitCommandsComponent('git-deploy')
+   this.loadGitCommandsComponent('setup-local')
   } 
 
   panelOpenState = true;
   public  parentValue:string;
 
   loadGitCommandsComponent(value: any) { 
-    debugger;  
+  
     this.parentValue=value;
     //this.parentValue = value;
     this._router.navigate([value],{relativeTo:this._activatedRoute})
