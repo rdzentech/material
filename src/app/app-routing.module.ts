@@ -12,7 +12,7 @@ import { StartComponent } from './tutorial/angular/start/start.component';
 
 const routes: Routes = [
   {
-    path: 'angular_start', component: SidenavComponent,
+    path: 'angular', component: SidenavComponent,
     children: [
       //Git Series
       { path: 'git-commands', component: GitCommandsComponent },
