@@ -2,13 +2,11 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common'
 import { Routes, RouterModule } from '@angular/router';
 import { HomeComponent } from './home/home.component';
-import { SidenavComponent } from './tutorial/main-sidenav/sidenav.component';
+import { SidenavComponent } from './tutorial/angular/main-sidenav/sidenav.component';
 import { GitCommandsComponent } from './tutorial/git/git-commands/git-commands.component';
 import { GitDeployComponent } from './tutorial/git/git-deploy/git-deploy.component';
 import { SetupLocalComponent } from './tutorial/angular/setup-local/setup-local.component';
 import { StartComponent } from './tutorial/angular/start/start.component';
-
-
 
 const routes: Routes = [
   {

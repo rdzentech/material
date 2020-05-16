@@ -11,7 +11,7 @@ import { MaterialModule } from './material-module';
 import { HeaderComponent } from './navigation/main-header/header.component';
 import { SidenavListComponent } from './navigation/main-sidenav-list/sidenav-list.component';
 import { HomeComponent } from './home/home.component';
-import { SidenavComponent } from './tutorial/main-sidenav/sidenav.component';
+import { SidenavComponent } from './tutorial/angular/main-sidenav/sidenav.component';
 
 import { SetupLocalComponent } from './tutorial/angular/setup-local/setup-local.component';
 import { StartComponent } from './tutorial/angular/start/start.component';
