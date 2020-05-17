@@ -1,5 +1,33 @@
 
+mat-card{
+    border :5px solid  rgb(130, 134, 132);
+}
+
+
+  .rdzentech img{
+    width:30%
+}
+.activegyan img{
+    width:30%
+}
+  
+.BrightHindu img{
+    width: 15%;
+}
+
+
+
+@media (max-width:599px) {
  
-  table td{
-    border:15px solid rgb(130, 134, 132);
   }
+
+  @media (max-width:720px) {
+	
+}
+
+  @media(max-width: 959px) {
+   
+  }
+  
+
+
