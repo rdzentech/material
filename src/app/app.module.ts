@@ -17,6 +17,8 @@ import { SetupLocalComponent } from './tutorial/angular/setup-local/setup-local.
 import { StartComponent } from './tutorial/angular/start/start.component';
 import { GitCommandsComponent } from './tutorial/git/git-commands/git-commands.component';
 import { GitDeployComponent } from './tutorial/git/git-deploy/git-deploy.component';
+import { ContactUsComponent } from './contact-us/contact-us.component';
+import { GitNavComponent } from './tutorial/git/git-nav/git-nav.component';
 
 
 
@@ -31,7 +33,9 @@ import { GitDeployComponent } from './tutorial/git/git-deploy/git-deploy.compone
     SetupLocalComponent,
     StartComponent,
     GitCommandsComponent,
-    GitDeployComponent
+    GitDeployComponent,
+    ContactUsComponent,
+    GitNavComponent
   ],
   imports: [
     BrowserModule,

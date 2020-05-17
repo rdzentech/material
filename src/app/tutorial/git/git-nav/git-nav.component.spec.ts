@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { AppComponentViewerComponent } from './app-component-viewer.component';
+import { GitNavComponent } from './git-nav.component';
 
-describe('AppComponentViewerComponent', () => {
-  let component: AppComponentViewerComponent;
-  let fixture: ComponentFixture<AppComponentViewerComponent>;
+describe('GitNavComponent', () => {
+  let component: GitNavComponent;
+  let fixture: ComponentFixture<GitNavComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ AppComponentViewerComponent ]
+      declarations: [ GitNavComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(AppComponentViewerComponent);
+    fixture = TestBed.createComponent(GitNavComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
