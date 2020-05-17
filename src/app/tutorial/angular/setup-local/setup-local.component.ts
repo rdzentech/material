@@ -11,5 +11,4 @@ export class SetupLocalComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
 }

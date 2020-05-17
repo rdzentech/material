@@ -11,26 +11,18 @@
             <li>
                 <a routerLink="/home">Home</a>
             </li>
-            <li>
-                <a routerLink="/guide">guide</a>
-            </li>
-          
-            <mat-list-item [matMenuTriggerFor]="menu">     
+            <mat-list-item [matMenuTriggerFor]="menu">
                 <a matline>Tutorial</a>
-            </mat-list-item> 
-     
-     </ul>
+            </mat-list-item>
+
+        </ul>
     </div>
 
     <div fxFlex fxLayout fxLayoutAlign="end" fxHide.xs>
 
         <ul fxLayout fxLayoutGap="15px" class="navigation-items">
-
             <li>
-                <a routerLink="/GitHub">Help</a>
-            </li>
-            <li>
-                <a routerLink="/DotNet">Contact US</a>
+                <a routerLink="/contact-us">Contact US</a>
             </li>
 
         </ul>
@@ -38,7 +30,6 @@
 </mat-toolbar>
 
 <mat-menu #menu="matMenu">
-    <button routerLink="/angular" mat-menu-item>Angular Series</button>  
-    <button routerLink="/GitHub" mat-menu-item>GitHubSeries</button>
- 
-</mat-menu>   
+    <button routerLink="/angular" mat-menu-item>Angular Series</button>
+    <button routerLink="/git" mat-menu-item>Git Series</button>
+</mat-menu>
