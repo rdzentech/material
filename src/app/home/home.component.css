@@ -1,16 +1,13 @@
 
 mat-card{
-    border :5px solid  rgb(130, 134, 132);
+   
+    width: 85%;
+    height: 100%;
+    align-content: center;   
 }
-
-
   .rdzentech img{
-    width:30%
+    width:100%
 }
-
-  
-
-
 
 @media (max-width:599px) {
  

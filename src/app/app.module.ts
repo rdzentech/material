@@ -8,16 +8,16 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './material-module';
 
 
-import { HeaderComponent } from './navigation/main-header/header.component';
-import { HomeComponent } from './home/home.component';
-import { SidenavComponent } from './tutorial/angular/main-sidenav/sidenav.component';
+import { HeaderComponent } from './Header/header.component';
+import { HomeComponent } from './Home/home.component';
+import { SidenavComponent } from './Tutorial/Angular/SideNav/sidenav.component';
 
-import { SetupLocalComponent } from './tutorial/angular/setup-local/setup-local.component';
-import { StartComponent } from './tutorial/angular/start/start.component';
-import { GitCommandsComponent } from './tutorial/git/git-commands/git-commands.component';
-import { GitDeployComponent } from './tutorial/git/git-deploy/git-deploy.component';
-import { ContactUsComponent } from './contact-us/contact-us.component';
-import { GitNavComponent } from './tutorial/git/git-nav/git-nav.component';
+import { SetupLocalComponent } from './Tutorial/Angular/Setup-Local/setup-local.component';
+import { StartComponent } from './Tutorial/Angular/Start/start.component';
+import { GitCommandsComponent } from './Tutorial/Git/Git-Commands/git-commands.component';
+import { GitDeployComponent } from './Tutorial/Git/Git-Deploy/git-deploy.component';
+import { ContactUsComponent } from './Contact-Us/contact-us.component';
+import { GitNavComponent } from './Tutorial/Git/Git-Nav/git-nav.component';
 
 
 

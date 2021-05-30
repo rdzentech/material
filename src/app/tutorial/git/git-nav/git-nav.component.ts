@@ -22,7 +22,7 @@ export class GitNavComponent implements OnInit {
   public  parentValue:string;
 
   loadGitCommandsComponent(value: any) { 
-    debugger;
+    
   
     this.parentValue=value;
    
