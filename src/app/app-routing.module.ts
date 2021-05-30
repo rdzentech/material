@@ -12,22 +12,16 @@ import { GitNavComponent } from './tutorial/git/git-nav/git-nav.component';
 
 const routes: Routes = [
   {
-
-  
-
-    path: 'angular', component: SidenavComponent,
-    
+    path: 'angular', component: SidenavComponent,    
     children: [
       // Angular Series
       { path: 'setup-local', component: SetupLocalComponent },
       { path: 'your-first-app', component: StartComponent }
     ]
-  },
-  
+  },  
   {
     path: 'git', component: GitNavComponent,
-
-  children: [
+    children: [
     //Git Series
     { path: 'git-commands', component: GitCommandsComponent },
 
@@ -38,7 +32,7 @@ const routes: Routes = [
 
   { path: 'home', component: HomeComponent },
   { path: 'contact-us', component: ContactUsComponent },  
-  { path: '', redirectTo: '/home', pathMatch: 'full' }
+  //{ path: '', redirectTo: '/home', pathMatch: 'full' }
 ];
 
 @NgModule({

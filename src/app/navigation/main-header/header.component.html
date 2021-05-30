@@ -1,6 +1,4 @@
 <mat-toolbar color="primary">
-
-
     <div fxHide.gt-xs>
         <button mat-icon-button (click)="onToggleSidenav()">
             <mat-icon>menu</mat-icon>
@@ -14,31 +12,22 @@
             <mat-list-item [matMenuTriggerFor]="menu">
                 <a matline>Tutorial</a>
             </mat-list-item>
-
         </ul>
     </div>
-
-  
-
     <div fxFlex fxLayout fxLayoutAlign="end" fxHide.xs>
-        
-        <ul fxLayout fxLayoutGap="25px" class="navigation-items">   
-                
+        <ul fxLayout fxLayoutGap="25px" class="navigation-items">
+
             <li class="contactus">
                 <a routerLink="/contact-us">Contact - US</a>
             </li>
             <li class="logo">
-                <a  href="https://www.youtube.com/channel/UCVeobIJHERBu1d4XS2YicCg" target="_blank">
-                    <img class="contact-image" mat-card-image src="./assets/RDZentechLog.jpg"
-                        alt="RDZENTECH">
+                <a href="https://www.youtube.com/channel/UCVeobIJHERBu1d4XS2YicCg" target="_blank">
+                    <img class="contact-image" mat-card-image src="./assets/RDZentechLog.jpg" alt="RDZENTECH">
                 </a>
-            </li> 
-          
+            </li>
         </ul>
-
     </div>
 </mat-toolbar>
-
 <mat-menu #menu="matMenu">
     <button routerLink="/angular" mat-menu-item>Angular Series</button>
     <button routerLink="/git" mat-menu-item>Git Series</button>

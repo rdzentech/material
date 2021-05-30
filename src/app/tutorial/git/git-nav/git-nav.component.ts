@@ -22,9 +22,10 @@ export class GitNavComponent implements OnInit {
   public  parentValue:string;
 
   loadGitCommandsComponent(value: any) { 
+    debugger;
   
     this.parentValue=value;
-    //this.parentValue = value;
+   
     this._router.navigate([value],{relativeTo:this._activatedRoute})
   }
 

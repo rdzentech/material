@@ -9,7 +9,6 @@ import { MaterialModule } from './material-module';
 
 
 import { HeaderComponent } from './navigation/main-header/header.component';
-import { SidenavListComponent } from './navigation/main-sidenav-list/sidenav-list.component';
 import { HomeComponent } from './home/home.component';
 import { SidenavComponent } from './tutorial/angular/main-sidenav/sidenav.component';
 
@@ -26,8 +25,7 @@ import { GitNavComponent } from './tutorial/git/git-nav/git-nav.component';
 @NgModule({
   declarations: [
     AppComponent, 
-    HeaderComponent,   
-    SidenavListComponent,
+    HeaderComponent,
     HomeComponent,
     SidenavComponent, 
     SetupLocalComponent,

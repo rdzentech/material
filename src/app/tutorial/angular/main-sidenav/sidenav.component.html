@@ -15,15 +15,14 @@
                                         <mat-panel-title>
                                             Get Start
                                         </mat-panel-title>
-
                                     </mat-expansion-panel-header>
                                     <mat-nav-list>
                                         <a mat-list-item routerLink="#">
-                                            <span (click)="loadGitCommandsComponent('setup-local')"
+                                            <span (click)="loadComponent('setup-local')"
                                                 class="nav-caption">SETUP</span>
                                         </a>
                                         <a mat-list-item routerLink="#">
-                                            <span (click)="loadGitCommandsComponent('your-first-app')"
+                                            <span (click)="loadComponent('your-first-app')"
                                                 class="nav-caption">Your First App</span>
                                         </a>
                                     </mat-nav-list>
@@ -34,12 +33,32 @@
                                         <mat-panel-title>
                                             Demo
                                         </mat-panel-title>
-
                                     </mat-expansion-panel-header>
-                                    <mat-nav-list role="navigation" dense=""
-                                        class="mat-nav-list mat-list-base ng-tns-c141-111 ng-trigger ng-trigger-bodyExpansion"
-                                        id="panel-layout" aria-label="Layout" style="display: block;"><a
-                                            mat-list-item=""
+                                    <mat-nav-list>
+                                        <a mat-list-item routerLink="#">
+                                            <span (click)="loadComponent('Not-Found')"
+                                                class="nav-caption">In-Progress</span>
+                                        </a>                                      
+                                    </mat-nav-list>
+                                </mat-expansion-panel>
+                            </mat-accordion>
+                        </div>
+                        <div class="viewer">
+                            <router-outlet>
+
+                            </router-outlet>
+                        </div>
+
+                    </main>
+                </div>
+            </div>
+        </mat-sidenav-content>
+    </mat-sidenav-container>
+</div>
+
+
+<!--
+     <a mat-list-item=""
                                             routerlinkactive="docs-component-viewer-sidenav-item-selected"
                                             class="mat-list-item mat-focus-indicator ng-tns-c141-111 ng-star-inserted"
                                             aria-current="false" href="/components/card">
@@ -47,7 +66,8 @@
                                                 <div mat-ripple="" class="mat-ripple mat-list-item-ripple"></div>
                                                 <div class="mat-list-text"></div> Card
                                             </div>
-                                        </a><a mat-list-item=""
+                                        </a>
+                                        <a mat-list-item=""
                                             routerlinkactive="docs-component-viewer-sidenav-item-selected"
                                             class="mat-list-item mat-focus-indicator ng-tns-c141-111 ng-star-inserted"
                                             aria-current="false" href="/components/divider" style="">
@@ -106,23 +126,4 @@
                                                 <div class="mat-list-text"></div> Tree
                                             </div>
                                         </a>
-                                        <!---->
-                                    </mat-nav-list>
-                                </mat-expansion-panel>
-                            </mat-accordion>
-                        </div>
-                        <div class="viewer">
-                            <router-outlet>
-
-                            </router-outlet>
-                        </div>
-
-                    </main>
-                </div>
-            </div>
-        </mat-sidenav-content>
-    </mat-sidenav-container>
-</div>
-
-
-<!---->
+-->

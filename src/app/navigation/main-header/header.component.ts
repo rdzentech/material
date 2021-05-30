@@ -11,8 +11,10 @@ export class HeaderComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    debugger;
   }
   public onToggleSidenav = () => {
+    debugger;
     this.sidenavToggle.emit();
   }
 }
