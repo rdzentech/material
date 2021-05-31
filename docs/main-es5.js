@@ -644,7 +644,7 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](8, "mat-card-subtitle");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](9, " TypeScript version 4.2 ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](9, " What\u2019s New in Angular 12? ");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
