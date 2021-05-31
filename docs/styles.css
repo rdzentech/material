@@ -1200,9 +1200,7 @@ mat-row,mat-header-row,mat-footer-row,th.mat-header-cell,td.mat-cell,td.mat-foot
 
 /* for sidenav to take a whole page */
 
-html, body { 
-   
-    height: 100%;
-  
+html, body {   
+    height: 100%;  
 
 }
