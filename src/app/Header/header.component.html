@@ -1,3 +1,11 @@
+<div fxFlex fxLayout  fxHide.xs></div>
+<div class="logo">
+    <a href="https://www.youtube.com/channel/UCVeobIJHERBu1d4XS2YicCg" target="_blank">
+        <img class="mat-card-image" src="./assets/RdZenTech.png" alt="RDZENTECH">
+    </a>
+</div>
+
+
 <mat-toolbar color="primary">
     <div fxHide.gt-xs>
         <button mat-icon-button (click)="onToggleSidenav()">
@@ -12,24 +20,26 @@
             <mat-list-item [matMenuTriggerFor]="menu">
                 <a matline>Tutorial</a>
             </mat-list-item>
-        </ul>
-    </div>
-
-    <div fxFlex fxLayout fxLayoutAlign="center" fxHide.xs>
-        <ul fxLayout fxLayoutGap="25px" class="logo">            
-            <li class="logo">
-                <a href="https://www.youtube.com/channel/UCVeobIJHERBu1d4XS2YicCg" target="_blank">
-                    <img class="contact-image" mat-card-image src="./assets/RdZenTech.png" alt="RDZENTECH">
-                </a>
+            <li class="dotnet-core">
+                <a routerLink="/dotnet-core">.NetCore</a>
+            </li>
+            <li class="SQL">
+                <a routerLink="/SQL">SQL</a>
+            </li>
+            <li class="JAVASCRIPT">
+                <a routerLink="/JAVASCRIPT">JAVASCRIPT</a>
             </li>
         </ul>
     </div>
     <div fxFlex fxLayout fxLayoutAlign="end" fxHide.xs>
         <ul fxLayout fxLayoutGap="25px" class="navigation-items">
+            <li class="about">
+                <a routerLink="/about">About</a>
+            </li>
 
             <li class="contactus">
                 <a routerLink="/contact-us">Contact - US</a>
-            </li>          
+            </li>
         </ul>
     </div>
 </mat-toolbar>

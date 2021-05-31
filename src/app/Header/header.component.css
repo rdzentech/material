@@ -2,9 +2,6 @@ a {
     text-decoration: none;
     color: white;
 }
-
-
-
 a:hover, a:active{
     color: lightgray;
 }
@@ -16,10 +13,11 @@ a:hover, a:active{
 }
 
 .logo{
-    margin-top: 28px;  
-    width: 85%;  
-    
-  
+    margin: 20px 0px 0px 10px;  
+}
+
+.mat-card-image{   
+    width: 80%;  
 }
 
 mat-toolbar{
